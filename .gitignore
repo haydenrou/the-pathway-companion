@@ -2,6 +2,8 @@
 
 /.env
 /build/
+/public/build
+.cache/
 /packages/*/dist/
 /packages/*/LICENSE.md
 node_modules/
