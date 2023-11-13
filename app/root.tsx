@@ -6,6 +6,8 @@ import {
 } from "@remix-run/react";
 
 export default function App() {
+  console.log("Hello :)")
+
   return (
     <html>
       <head>

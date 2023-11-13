@@ -5,7 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build/index.js",
+    "typecheck": "tsc"
   },
   "repository": {
     "type": "git",
@@ -27,6 +31,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.2.0"
+    "@remix-run/dev": "^2.2.0",
+    "@remix-run/eslint-config": "latest",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "eslint": "^8.23.1",
+    "typescript": "^5.2.2"
   }
 }
